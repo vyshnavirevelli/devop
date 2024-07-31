@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lib Management Dummy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <div class="title"><h1>Library Management System</h1>
+                </div>
+                <div class="clg-title">
+                    <h1>JNTUH UNIVERSITY COLLEGE OF ENGINEERING MANTHANI</h1>
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+        <div class="menu">
+            <ul class="menu-items">
+                <li><a href="#" id="reg-btn">Register</a></li>
+                <li><a href="#" id="login-btn">Login</a></li>
+                <li><a href="#">catalouge</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="branch-books">
+            <div class="branch">
+                <h3 class="branch-title">Branches</h3>
+                <div class="branch-type" id="cse">
+                    <button onclick="show(0,'cse')">CSE</button>
+                </div>
+                <div class="branch-type" id="csm">
+                    <button onclick="show(1,'csm')">CSM</button>
+                </div>
+                <div class="branch-type" id="eee">
+                    <button onclick="show(2,'eee')">EEE</button>
+                </div>
+                <div class="branch-type" id="me">
+                    <button onclick="show(3,'me')">ME</button>
+                </div>
+                <div class="branch-type" id="mi">
+                    <button onclick="show(4,'mi')">MI</button>
+                </div>
+            </div>
+            <div class="books">
+                <p class="books-list">Click any brach to view the books</p>
+            </div>
+        </div>
+        <div class="register nodisp" >
+            <span class="reg-close close">&times;</span>
+            <h1>Register</h1>
+            <div class="reg-box">
+                <section class="label-names">
+                    <label for="name">Name: </label>
+                </section>
+                <input type="text" name="name" id="name"> <br>
+
+                <section class="label-names">
+                    <label for="email">Email: </label>
+                </section>
+                <input type="email" name="email" id="email"><br>
+
+                <section class="label-names">
+                    <label for="pass">Password: </label>
+                </section>
+                <input type="password" name="pass" id="pass"><br>
+
+                <input type="submit" value="Submit" class="submit">
+            </div>
+        </div>
+        <div class="login nodisp" >
+            <span class="log-close close">&times;</span>
+            <h1>Login</h1>
+            <div class="login-box">
+                <section class="label-names">
+                    <label for="email">Email: </label>
+                </section>
+                <input type="email" name="email" id="email"><br>
+
+                <section class="label-names">
+                    <label for="pass">Password: </label>
+                </section>
+                <input type="password" name="pass" id="pass"><br>
+
+                <input type="submit" value="Submit" class="submit">
+            </div>
+        </div>
+    </main>
+    <script type="" src="/script.js"></script>
+</body>
+</html>
